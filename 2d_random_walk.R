@@ -40,7 +40,7 @@ for (i in 2:N){
   }
 }
 
-#create a data fram containing (x,y) coordinates and magnitude of displacement vector
+#create a data frame containing (x,y) coordinates and magnitude of displacement vector
 rw<-data.frame(x=x,y=y,d=sqrt(x^2+y^2))
 
 #generate visualization
