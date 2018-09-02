@@ -6,7 +6,7 @@
 
 library(tidyverse)
 
-#Total number of steps
+#total number of steps
 N<-100000
 
 #initialize x and y vectors to zero
