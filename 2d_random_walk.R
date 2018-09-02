@@ -44,7 +44,7 @@ for (i in 2:N){
 rw<-data.frame(x=x,y=y,d=sqrt(x^2+y^2))
 
 #generate visualization
-rw%>%ggplot(aes(x,y))+geom_point(alpha=0.5)+
+rw%>%ggplot(aes(x,y))+geom_point(alpha=0.5,size=1)+
   ggtitle("2d random walk: N = 100,000")+
   xlab('x')+ ylab('y')+
   theme(plot.title = element_text(color="black", size=12, hjust=0.5, face="bold"),
